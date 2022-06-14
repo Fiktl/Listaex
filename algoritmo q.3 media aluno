@@ -1,0 +1,11 @@
+ínicio
+  var a,b,c,media:real
+  escreva(Digite as notas:)
+  leia(a,b,c)
+  media <- (a+b+c)/3
+  escreva(Média:, media)
+    se (media>=6)
+        escreva(Aprovado)
+    senao 
+        escreva(Reprovado)
+fim
