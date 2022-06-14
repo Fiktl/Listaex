@@ -1,0 +1,20 @@
+
+inicio
+var a,b,c,media,cod_aluno:real
+escreva(Digite o código do aluno:)
+leia(cod_aluno)
+escreva(Digite as três notas:)
+leia(a,b,c)
+media <- ((ax4)+(bx3)+(cx3))/3
+    se (media >= 5)
+        escreva(APROVADO");
+        escreva(Aluno:, cod_aluno);
+        escreva(Notas:, a,b,c);
+        escreva(Media:, media);
+    
+    senão 
+        escreva(Aluno:,cod_aluno);
+        escreva(Notas:, a,b,c);
+        escreva(Media:, media);
+        escreva("REPROVADO"); 
+ fim
