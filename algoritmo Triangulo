@@ -1,0 +1,17 @@
+*var*
+a,b,c:real
+escreva(Digite os lados a,b,c:)
+leia(a,b,c)
+printf("Valores:,a,b,c)
+   se((|b-c|<a<b+c)&&(|a-c|<b<a+c)&&(|a-b|<c<a+b)) 
+       se ((a=b)&&(b=c))
+       escreva("Triângulo equilátero")
+       senão se
+       ((a!=b)&&(b!=c)&&(c!=a));
+       escreva("Triângulo escaleno")
+       senão
+       escreva(nTriângulo isósceles")
+   senão
+    escreva(Não é um triangulo")
+fim
+       
