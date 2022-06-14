@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main()
+{ float a,b,c,media,cod_aluno;
+  printf("\nDigite o código do aluno: ");
+  scanf("%f", &cod_aluno);
+  printf("\n Digite as três notas: ");
+  scanf("%f%f%f", &a,&b,&c);
+  media =((a*4)+(b*3)+(c*3))/3;
+    if (media>=5)
+    {
+        printf("\nAPROVADO");
+        printf("\nAluno: %.0f",cod_aluno);
+        printf("\nNotas: %.1f \t%.1f \t %.1f", a,b,c);
+        printf("\nMedia: %.2f", media);
+    }
+    else 
+    {
+        printf("\nAluno: %.0f",cod_aluno);
+        printf("\nNotas: %.1f \t%.1f \t%.1f", a,b,c);
+        printf("\nMedia: %.2f", media);
+        printf("REPROVADO");
+    }
+    return 0;
+}
