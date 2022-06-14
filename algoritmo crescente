@@ -1,0 +1,23 @@
+ínicio
+ var a,b,c:real
+ escreva((Digite três valores:)
+ leia(a,b,c)
+ se (a<b) e (a<c)
+        se(b<c)
+        escreva(A ordem crescente é:,a,b,c)
+        se(c<b)
+        escreva(A ordem crescente é: ,a,c,b)
+ senao se (b<a) e (b<c)
+        se(a<c)
+        escreva(A ordem crescente é: b,a,c)
+        se(c<a)
+        escreva("A ordem crescente é:,b,c,a)
+ senao se (c<a) e (c<b)
+        se(a<b)
+        escreva("A ordem crescente é:c,a,b)
+        se(b<a)
+        escreva("A ordem crescente é:,c,b,a)
+ senao
+    escreva(Os valores nao sao validos)
+fim   
+   
