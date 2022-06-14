@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+int main()
+{
+    float a,b,c;
+    printf("Digite três valores:\n");
+    scanf("%f%f%f", &a,&b,&c);
+    if ((a<b)&&(a<c))
+    {
+        if(b<c)
+        printf("A ordem crescente é %.1f\t%.1f\t%.1f\n",a,b,c);
+        if(c<b)
+        printf("A ordem crescente é %.1f\t%.1f\t%.1f\t",a,c,b);
+    }
+    else if ((b<a)&&(b<c)) // se b for menor que todos
+    {
+        if(a<c)
+        printf("A ordem crescente é %.1f\t%.1f\t%.1f\n",b,a,c);
+        if(c<a)
+        printf("A ordem crescente é %.1f\t%.1f\t%.1f\n",b,c,a);
+    }
+    else if  ((c<a)&&(c<b))
+    {
+        if(a<b)
+        printf("A ordem crescente é %.1f\t%.1f\t%.1f\n",c,a,b);
+        if(b<a)
+        printf("A ordem crescente é %.1f\t%.1f\t%.1f\n",c,b,a);
+    }
+    else
+    printf("\nOs valores não são válidos!");
+    return 0;
+}
