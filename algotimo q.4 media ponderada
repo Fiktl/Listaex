@@ -17,4 +17,5 @@ media <- ((ax4)+(bx3)+(cx3))/3
         escreva(Notas:, a,b,c);
         escreva(Media:, media);
         escreva("REPROVADO"); 
+    fim se
  fim
