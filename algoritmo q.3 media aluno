@@ -8,4 +8,5 @@
         escreva(Aprovado)
     senao 
         escreva(Reprovado)
+    fim se
 fim
