@@ -1,0 +1,23 @@
+ínicio
+var
+a,b,c,media; real
+opcao;inteiro
+    media<-0
+    escreva(Digite 3 valores:)
+    leia(a,b,c)
+    escreva("\nEscolha a média desejada: (0)Simples (1)Ponderada (peso:3,3,5) (2)Harmonica")
+    leia(opcao)
+    escolha(opcao)
+        caso 0: 
+        media <- (a+b+c)/3
+        escreva(Média simples:, media)
+        
+        caso 1:
+        media <- ((a*3)+(b*3)+(c*5))/3
+        escreva(Média ponderada:, media)
+        
+        caso 2: 
+        media <- 3/((1/a)+(1/b)+(1/c))
+        escreva(Média Harmonica:, media)
+    fim escolha
+fim
