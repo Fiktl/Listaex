@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{   float x1,x2,y1,y2,dist; 
+    printf("\nDigite os valores x1,x2:");
+    scanf("%f%f", &x1,&x2);
+    printf("\nDigite os valores y1,y2:");
+    scanf("%f%f", &y1,&y2);
+    dist= sqrt((pow(x2-x1,2))+(pow(y2-y1,2)));
+    printf("\nDistancia é: %.2f", dist);
+    
+    return 0;
+}
