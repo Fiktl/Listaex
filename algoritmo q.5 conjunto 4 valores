@@ -1,0 +1,84 @@
+ínicio
+var a,b,c; real
+i;real
+ escreva(Digite os tres valores: a,b,c:)
+ leia(a,b,c)
+ escreva(Digite o valor i:)
+ leia(i)
+     se (i==1)
+        {
+            se ((a<b)e(a<c))
+            {
+                se(b<c)
+                escreva(A ordem crescente é ,a,b,c);
+                se(c<b)
+                escreva(A ordem crescente é ,a,c,b);
+            }
+            senao se ((b<a)e(b<c))
+            {
+                se(a<c)
+                escreva(ordem crescente é ,b,a,c);
+                se(c<a)
+                escreva(A ordem crescente é ,b,c,a);
+            }
+            senao se  ((c<a)e(c<b))
+            {
+                se(a<b)
+                escreva(A ordem crescente é ,c,a,b);
+                se(b<a)
+                escreva(A ordem crescente é ,c,b,a);
+            }
+        } 
+     senao se (i==2)
+        {
+           se ((a>b)e(a>c))
+            {
+                se(b>c)
+                escreva(A ordem decrescente é ,a,b,c);
+                se(c>b)
+                escreva(A ordem decrescente é ,a,c,b);
+            }
+            senao se ((b>a)e(b>c))
+            {
+                se(a>c)
+                escreva(A ordem decrescente é,b,a,c);
+                se(c>a)
+                escreva(A ordem decrescente é,b,c,a);
+            }
+            senao se  ((c>a)e(c>b))
+            {
+                se(a>b)
+                escreva(A ordem crescente é,c,a,b);
+                se(b>a)
+                escreva(A ordem crescente é,c,b,a);
+            }
+        }
+     senao se(i==3)
+        {
+           se ((a>b)e(a>c))
+            {
+                se(b>c)
+                escreva(A ordem  é ,c,a,b);
+                se(c>b)
+                escreva(A ordem  é ,b,a,c);
+            } 
+           senao se ((b>a)e(b>c))
+            {
+                se(a>c)
+                escreva(ordem decrescente é ,c,b,a);
+                se(c>a)
+                escreva(A ordem decrescente é ,a,b,c);
+            }
+            senao se  ((c>a)e(c>b))
+            {
+                se(a>b)
+                escreva(A ordem crescente é ,b,c,a);
+                se(b>a)
+                escreva(A ordem crescente é ,a,c,b);
+            }
+        }
+
+    fim se
+  fim
+}
+
