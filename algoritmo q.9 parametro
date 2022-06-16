@@ -1,0 +1,11 @@
+inicio
+  var
+  a,b,c,d,e,f,x,y;real
+  escreva(Digite os valores a,b,c,d,e,f:)
+  leia(a,b,c,d,e,f)
+    X <- ((c x e)-(b x f))/((a x e)-(b x d))
+    y <- ((a x f)-(c x d))/((a xe )-(b x d))
+    c= (a x X)+(b x y)
+    f= (d x X)+(e x y)
+    printf(nSeu valor de x e y é:,x,y)
+ fim
