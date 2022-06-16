@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <math.h>
+
+ínicio
+  var 
+  x1,x2,y1,y2,dist; real 
+  escreva(Digite os valores x1,x2:)
+  leia(x1,x2)
+  escreva(Digite os valores y1,y2:)
+  scanf(y1,y2)
+  dist <- √(((x2-x1,2)^2)+((y2-y1,2)^2)
+  escreva(Distancia é, dist)
+fim
