@@ -2,16 +2,17 @@
 a,b,c:real
 escreva(Digite os lados a,b,c:)
 leia(a,b,c)
-printf("Valores:,a,b,c)
-   se((|b-c|<a<b+c)&&(|a-c|<b<a+c)&&(|a-b|<c<a+b)) 
-       se ((a=b)&&(b=c))
-       escreva("Triângulo equilátero")
+escreva(Valores:,a,b,c)
+   se ((|b-c|<a<b+c)e(|a-c|<b<a+c)e(|a-b|<c<a+b)) 
+       se ((a=b)e(b=c))
+       escreva(Triângulo equilátero)
        senão se
-       ((a!=b)&&(b!=c)&&(c!=a));
-       escreva("Triângulo escaleno")
+       ((a!=b)e(b!=c)e(c!=a));
+       escreva(Triângulo escaleno)
        senão
-       escreva(nTriângulo isósceles")
-   senão
-    escreva(Não é um triangulo")
+       escreva(Triângulo isósceles)
+       senão
+       escreva(Não é um triangulo)
+   fim se
 fim
        
